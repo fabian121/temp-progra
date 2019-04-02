@@ -12,12 +12,14 @@ package temp.pkg2019.pkg2;
  */
 public class Temp20192 {
 
+    private static String name;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hello world!");
+        name = "Juan Perez";
+        System.out.println("Hello world " + name +"!");
     }
     
 }
